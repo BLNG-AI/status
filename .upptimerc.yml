@@ -2,9 +2,9 @@ owner: BLNG-AI
 repo: status
 
 sites:
-  - name: BLNG Platform
+  - name: Application
     url: https://app.blng.ai
-  - name: Marketing Site
+  - name: Website
     url: https://www.blng.ai
   - name: Documentation
     url: https://docs.blng.ai
