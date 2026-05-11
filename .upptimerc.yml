@@ -16,8 +16,17 @@ status-website:
   name: System Status
   logoUrl: https://raw.githubusercontent.com/BLNG-AI/status/main/assets/logo.svg
   favicon: https://blng.ai/favicon.svg
-  introTitle: "**BLNG** System Status"
-  introMessage: This page provides real-time status for BLNG services.
+  introTitle: " "
+  introMessage: >-
+    <style>
+    @font-face { font-family: 'Futura PT'; font-weight: 400; font-style: normal; font-display: swap; src: url('https://docs.blng.ai/fonts/FuturaPT-Book.woff2') format('woff2'); }
+    @font-face { font-family: 'Futura PT'; font-weight: 500; font-style: normal; font-display: swap; src: url('https://docs.blng.ai/fonts/FuturaPT-Medium.woff2') format('woff2'); }
+    body, nav, h1, h2, h3, h4, h5, h6, p, a, span, div, article, section, footer, header, .lead { font-family: 'Futura PT', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important; }
+    header.svelte-ngkazm h1 { display: none !important; }
+    footer.svelte-jbr799 { display: none !important; }
+    nav .logo div { font-weight: 500; letter-spacing: 0.02em; }
+    </style>
+    This page provides real-time status for BLNG services.
   theme: light
 
 i18n:
