@@ -4,10 +4,12 @@ repo: status
 sites:
   - name: BLNG Platform
     url: https://app.blng.ai
-  - name: Design App
-    url: https://design.blng.ai
   - name: Marketing Site
     url: https://www.blng.ai
+  - name: Documentation
+    url: https://docs.blng.ai
+  - name: Help Center
+    url: https://help.blng.ai
 
 status-website:
   cname: status.blng.ai
