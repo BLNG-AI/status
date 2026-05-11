@@ -14,7 +14,7 @@ sites:
 status-website:
   cname: status.blng.ai
   name: System Status
-  logoUrl: https://raw.githubusercontent.com/BLNG-AI/status/main/assets/logo.svg
+  logoUrl: https://docs.blng.ai/blng-logo.svg
   favicon: https://blng.ai/favicon.svg
   introTitle: " "
   introMessage: >-
