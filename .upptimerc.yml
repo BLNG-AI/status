@@ -13,8 +13,8 @@ sites:
 
 status-website:
   cname: status.blng.ai
-  name: ""
-  logoUrl: https://raw.githubusercontent.com/BLNG-AI/status/main/assets/logo.png
+  name: System Status
+  logoUrl: https://raw.githubusercontent.com/BLNG-AI/status/main/assets/logo.svg
   favicon: https://blng.ai/favicon.svg
   introTitle: "**BLNG** System Status"
   introMessage: This page provides real-time status for BLNG services.
