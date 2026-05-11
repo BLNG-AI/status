@@ -12,6 +12,7 @@ sites:
     url: https://help.blng.ai
 
 status-website:
+  publish: true
   cname: status.blng.ai
   name: System Status
   logoUrl: https://docs.blng.ai/blng-logo.svg
