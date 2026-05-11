@@ -20,6 +20,9 @@ status-website:
   introMessage: This page provides real-time status for BLNG services.
   theme: light
 
+i18n:
+  footer: " "
+
 notifications:
   - type: slack
     channel: "#ops-alerts"
