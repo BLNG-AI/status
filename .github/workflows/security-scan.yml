@@ -1,0 +1,8 @@
+name: Security Scan
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  trivy:
+    uses: BLNG-AI/sst-reusable-deployment-workflows/.github/workflows/security-scan.yaml@main

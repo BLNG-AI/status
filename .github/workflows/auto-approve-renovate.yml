@@ -1,0 +1,12 @@
+name: Auto-approve Renovate
+on: pull_request_target
+
+permissions:
+  pull-requests: write
+
+jobs:
+  auto-approve:
+    if: github.actor == 'renovate[bot]'
+    uses: BLNG-AI/sst-reusable-deployment-workflows/.github/workflows/auto-approve-renovate.yaml@main
+    with:
+      pr-url: ${{ github.event.pull_request.html_url }}

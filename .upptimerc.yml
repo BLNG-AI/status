@@ -1,0 +1,21 @@
+owner: BLNG-AI
+repo: status
+
+sites:
+  - name: BLNG Platform
+    url: https://app.blng.ai
+  - name: Design App
+    url: https://design.blng.ai
+  - name: Marketing Site
+    url: https://www.blng.ai
+
+status-website:
+  cname: status.blng.ai
+  name: BLNG System Status
+  introTitle: "**BLNG** is currently {averageUptime}% up"
+  introMessage: This page provides real-time status for BLNG services.
+  theme: light
+
+notifications:
+  - type: slack
+    channel: "#ops-alerts"
