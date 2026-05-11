@@ -18,8 +18,9 @@ status-website:
   logoUrl: https://docs.blng.ai/blng-logo.svg
   favicon: https://blng.ai/favicon.svg
   introTitle: " "
-  introMessage: >-
-    <style>
+  introMessage: "This page provides real-time status for BLNG services."
+  theme: light
+  css: >-
     @font-face { font-display: swap; font-family: 'futura-pt'; font-style: normal; font-weight: 400; src: url('https://docs.blng.ai/fonts/FuturaPT-Book.woff2') format('woff2'); }
     @font-face { font-display: swap; font-family: 'futura-pt'; font-style: normal; font-weight: 500; src: url('https://docs.blng.ai/fonts/FuturaPT-Medium.woff2') format('woff2'); }
     @font-face { font-display: swap; font-family: 'futura-pt'; font-style: normal; font-weight: 600; src: url('https://docs.blng.ai/fonts/FuturaPT-Demi.woff2') format('woff2'); }
@@ -35,11 +36,8 @@ status-website:
     nav a.logo { display: flex !important; align-items: flex-end !important; gap: 1.5rem !important; text-decoration: none !important; margin-top: -0.5rem !important; }
     nav a.logo img { width: 174px !important; height: 48px !important; }
     nav a.logo > div { font-size: 1.125rem !important; font-weight: 400 !important; font-style: normal !important; line-height: 1.75rem !important; margin-bottom: -0.1rem !important; }
-    article { background: #ffffff !important; }
+    article { background-color: #ffffff !important; }
     .lead { font-size: 1.125rem !important; }
-    </style>
-    This page provides real-time status for BLNG services.
-  theme: light
 
 i18n:
   footer: " "
